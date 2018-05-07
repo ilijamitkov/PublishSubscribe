@@ -1,17 +1,14 @@
 ﻿using System;
-using System.Collections.Generic;
 
 namespace PublishSubscribe
 {
-    public class LargestPrimeFactorArgument : EventArgs
+    public class LpfArgument : EventArgs
     {
-        public long LargestPrimeFactor { get; private set; }
-        public long Number { get; private set; }
+        public LargestPrimeFactor Lpf { get; private set; }
 
-        public LargestPrimeFactorArgument(long number, long largestPrimeFactor)
+        public LpfArgument(LargestPrimeFactor lpf)
         {
-            Number = number;
-            LargestPrimeFactor = largestPrimeFactor;
+            Lpf = lpf;
         }
     }
 }

@@ -1,11 +1,11 @@
 ﻿using System;
 namespace PublishSubscribe
 {
-    public class NthPrimeSubscriber
+    public class LpfSubscriber
     {
-        public NthPrimePublisher Publisher { get; private set; }
+        public LpfPublisher Publisher { get; private set; }
 
-        public NthPrimeSubscriber(NthPrimePublisher publisher )
+        public LpfSubscriber(LpfPublisher publisher )
         {
             Publisher = publisher;
         }
