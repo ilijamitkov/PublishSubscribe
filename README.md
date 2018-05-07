@@ -1,6 +1,6 @@
 PusblishSubscribe
 
-This solution is only a conversation start and please threat it as such
+This solution is only a conversation starter and please threat it as such
 
 Two Implementations
 
